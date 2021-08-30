@@ -127,6 +127,7 @@ public class Lesson3 {
                 m[0] = temp;
             else
                 m[m.length-1] = temp;
+            //
         }
     }
 }
