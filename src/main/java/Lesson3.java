@@ -59,16 +59,6 @@ public class Lesson3 {
         return m;
     }
 
-    public static int[] Lesson3_6(int len, int initialValue){
-
-        int[] m = new int[len];
-
-        for( int i=0; i<m.length; i++)
-            m[i] = initialValue;
-
-        return m;
-    }
-
     public static void Lesson3_6(){
 
         int[] m = new int[100];
@@ -127,6 +117,7 @@ public class Lesson3 {
                 m[0] = temp;
             else
                 m[m.length-1] = temp;
+            
         }
     }
 }
